@@ -28,6 +28,7 @@ class Doll():
         combat_effectiveness = 30 * self.firepower + 40 * (self.rof ** 2 / 120) + 15*(self.accuracy + self.evasion)
         return int(combat_effectiveness)
 
+
 #####                  END OF CLASS SECTION                   #####
 
 print("##### FRIENDLY DOLL'S STATS #####")
